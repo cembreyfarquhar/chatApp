@@ -6,13 +6,10 @@ import MessageForm from "./MessageForm";
 // import { EEXIST } from "constants";
 
 const MessageBoardContainer = styled.div`
-  margin: 0 auto;
   border: 1px solid black;
   border-radius: 15px 15px 0 0;
-  max-width: 1000px;
-  width: 80%;
-  height: 85vh;
-  margin-top: 30px;
+  grid-column: 3 / 4;
+  grid-row: 2 / 5;
   h1 {
     font-size: 54px;
     margin: 0 25px 0 0;
