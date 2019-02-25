@@ -7,22 +7,35 @@ import MessageForm from "./MessageForm";
 
 const MessageBoardContainer = styled.div`
   border: 1px solid black;
-  border-radius: 15px 15px 0 0;
+  border-radius: 10px 10px 0 10px;
   grid-column: 3 / 4;
   grid-row: 2 / 5;
+  background-color: #CFFFE5;
+  overflow: hidden;
   h1 {
     font-size: 54px;
+    color: #CFFFE5;
     margin: 0 25px 0 0;
     text-align: right;
+    background-color: maroon;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
   }
   hr {
     width: 90%;
+    border-color: pink;
   }
 `;
 
 class MessageBoard extends Component {
   state = {
-    messages: ["I love you, Katie!", "so so so so so much"],
+    messages: [
+      // {
+      //   id: 0,
+      //   text: "Hello"
+      // }
+      "Hello"
+    ],
     messageInput: ""
   };
 
